@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.p-c {
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.product {
+    text-align: center;
+    width: 350px;
+    height: fit-content;
+    display: inline;
+}
+
+.product img {
+    width: auto;
+    height: 300px;
+    object-fit: 300px;
+}

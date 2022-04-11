@@ -1,0 +1,8 @@
+<section class="container p-c">
+    <div *ngFor="let p of products" class="d-inline product">
+        <h3>ID: {{p.id}}</h3>
+        <h6>Name: {{p.name}}</h6>
+        <p>Description: {{p.description}}</p>
+        <img src="{{p.image}}">
+    </div>
+</section>

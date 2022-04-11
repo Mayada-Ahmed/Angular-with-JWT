@@ -1,0 +1,26 @@
+button{
+    margin-right: 1rem;
+}
+form{
+    width: 400px;
+    margin: auto;
+    padding-top: 17px;
+    padding-bottom: 20px;
+    /* border: 1px solid black; */
+    height: 350px;
+    margin-top: 100px;
+    border-radius: 7px;
+    /* background-color: rgb(218, 212, 212); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+mat-form-field{
+    width: 90%;
+}
+h4::first-letter{
+    text-transform: capitalize;
+}
+h4{
+    margin-top: 100px;
+    padding-bottom: 15px;
+}
+
